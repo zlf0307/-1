@@ -1,0 +1,46 @@
+body{
+    background-image: url("../img/bgimg5.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#login_frame {
+    width: 400px;
+    height: 300px;
+    padding: 13px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -220px;
+    background-color: rgba(128, 170, 202, 0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+#image_logo {
+    margin-top: 22px;
+}
+#logo_image{
+    width:70px;
+    height:60px;
+    filter:opacity(80%);
+}
+.label_input {
+    font-size: 14px;
+    font-family: 宋体;
+    font-weight: bolder;
+    width: 65px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color:black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.text_field {
+    width: 250px;
+    height: 22px;
+    border-radius: 5px;
+    background-color: transparent;
+    border:1;
+}
+

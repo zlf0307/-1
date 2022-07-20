@@ -1,0 +1,320 @@
+body {
+    background-color: rgb(246, 246, 246);
+}
+
+.shopping_menu {
+    background-color: rgb(246, 246, 246);
+}
+
+.shopping_list {
+    width: 1240px;
+    margin: 0 auto;
+    background-color: rgb(246, 246, 246);
+}
+
+.first_list {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo_img {
+    float: left;
+}
+
+.logo {
+    width: 160px;
+    height: 140px;
+}
+
+.reserch {
+    width: 178px;
+    margin-top: 50px;
+    margin-right: 20px;
+    float: right;
+}
+
+.phone_img {
+    float: left;
+    color: rgb(255, 150, 12);
+    font-size: 27px;
+}
+
+.phone_number {
+    font-size: 20px;
+    color: rgb(115, 115, 115);
+    font-weight: bolder;
+    float: right;
+}
+
+.two_list {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.total_commodity {
+    width: 80px;
+    margin-left: 20px;
+    float: left;
+}
+
+.total_text {
+    float: left;
+}
+
+.commodity_quantity {
+    float: right;
+}
+
+.total_text,
+.commodity_quantity {
+    font-size: 15px;
+    font-weight: bolder;
+    color: crimson
+}
+
+.transport {
+    float: right;
+}
+
+.tansport_text {
+    font-size: 13px;
+    float: left;
+}
+
+.transport input {
+    margin-top: 2px;
+    height: 14px;
+    float: right;
+}
+
+.three_list {
+    width: 1100px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: rgb(227, 227, 227);
+}
+
+.commodity_name {
+    margin-left: 40px;
+    float: left;
+}
+
+.model_two {
+    width: 105px;
+    float: left;
+    margin-left: 700px;
+}
+
+.model_three {
+    width: 105px;
+    float: right;
+    margin-right: 50px;
+}
+
+.commodity_name,
+.model_two,
+.model_three {
+    font-size: 13px;
+    color: rgb(81, 80, 80);
+    font-weight: bolder;
+    margin-top: 16px;
+}
+
+.commodity_price {
+    float: left;
+}
+
+.quantity {
+    float: right;
+}
+
+.total_price {
+    float: left;
+}
+
+.opration {
+    float: right;
+}
+
+.four_list {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.shoppingcar_list {
+    border-top: solid 2px rgb(139, 132, 132);
+    width: 1040px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.shoppingcar_list_img {
+    float: left;
+}
+
+.comImg {
+    width: 80px;
+    height: 90px;
+}
+
+.comFir {
+    float: left;
+}
+
+.comNam {
+    float: left;
+    width: 200px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: 10px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.comdes {
+    width: 200px;
+    height: 70px;
+    float: left;
+    clear: both;
+    color: rgb(98, 96, 96);
+    font-size: 12px;
+    margin-left: 10px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.comTwo {
+    width: 105px;
+    font-size: 13px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 437px;
+}
+
+.onlycomPrice {
+    float: left;
+}
+
+.comnum {
+    float: right;
+}
+
+.comThree {
+    width: 115px;
+    font-size: 13px;
+    margin-right: 20px;
+    margin-top: 35px;
+    float: right;
+}
+
+.totalcomPrice {
+    float: left;
+}
+
+.delet {
+    float: right;
+}
+
+.content_border {
+    width: 1100px;
+    margin: 0 auto;
+    border: solid 1px rgb(197, 197, 197);
+}
+
+.five_list {
+    width: 1100px;
+    margin: 0 auto;
+    height: 65px;
+    border: solid 1px rgb(197, 197, 197);
+    margin-top: 30px;
+}
+
+.continue_button {
+    float: left;
+}
+
+.account {
+    float: left;
+}
+
+.account_button {
+    width: 150px;
+    height: 66px;
+    display: block;
+    background-color: rgb(237, 136, 13);
+    float: right;
+    text-decoration: none;
+}
+
+.account_button div {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-top: 17px;
+    color: aliceblue;
+}
+
+.account_button:hover {
+    background-color: rgb(222, 129, 15);
+}
+
+.continue_button {
+    margin-top: 25px;
+}
+
+.continue_button a {
+    margin-left: 20px;
+    display: block;
+    width: 80px;
+    color: rgb(78, 77, 77);
+}
+
+.continue_button a:hover {
+    color: rgb(193, 56, 6);
+}
+
+.continue_button i {
+    float: left;
+    font-size: 19px;
+}
+
+.continue_text {
+    float: right;
+    font-size: 13px;
+}
+
+.account {
+    width: 130px;
+    margin-top: 28px;
+    margin-left: 720px;
+}
+
+.total_price_text {
+    float: left;
+    font-size: 13px;
+    color: rgb(78, 77, 77);
+}
+
+.total_commodity_price {
+    float: right;
+    margin-top: -5px;
+    margin-right: 15px;
+    height: 40px;
+    color: rgb(206, 9, 48);
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.six_list {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+.tail {
+    float: left;
+    margin-left: 490px;
+    font-weight: bolder;
+    color: rgb(114, 137, 138);
+}

@@ -1,0 +1,54 @@
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+/* 轮播容器 */
+.img_wrap {
+	widows: 1519px;
+	height: 380px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.img_wrap ul li {
+	float: left;
+}
+
+/* 轮播索引 */
+.img_wrap .img_index {
+	/* z-index: 100; */
+	position: absolute;
+	right: 700px;
+	bottom: 20px;
+}
+
+.img_wrap .img_index ul li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-left: 6px;
+	background-color: rgba(255, 255, 255, .3);
+	/* 将背景颜色设置到内容区，边框和内边距不在有背景颜色 */
+	background-clip: content-box;
+	/* 透明边框 */
+	border: 3px solid transparent;
+}
+
+.img_wrap .img_index ul li.on {
+	background-color: #fff;
+	border: 3px solid rgba(255, 255, 255, .3);
+}
+
+/* 轮播图片容器 */
+.img_wrap .img_lunbo {
+	width: 1519px;
+	height: 380px;
+	/* height:480px; */
+	overflow: hidden;
+}
+
+.img00 {
+	width: 1519px;
+}

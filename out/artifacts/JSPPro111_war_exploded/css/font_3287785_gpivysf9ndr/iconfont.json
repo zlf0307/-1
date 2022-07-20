@@ -1,0 +1,44 @@
+{
+  "id": "3287785",
+  "name": "图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2991091",
+      "name": "global-perspective",
+      "font_class": "global-perspective",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "12380500",
+      "name": "world-flag_105-IDN--Indonesia",
+      "font_class": "world-flag_-IDN--Indonesia",
+      "unicode": "e830",
+      "unicode_decimal": 59440
+    },
+    {
+      "icon_id": "12380619",
+      "name": "world-flag_187-RUS--Russian Federation",
+      "font_class": "world-flag_-RUS--RussianFederation",
+      "unicode": "e860",
+      "unicode_decimal": 59488
+    },
+    {
+      "icon_id": "12380664",
+      "name": "world-flag_214-ESP--Spain",
+      "font_class": "world-flag_-ESP--Spain",
+      "unicode": "e872",
+      "unicode_decimal": 59506
+    },
+    {
+      "icon_id": "12380714",
+      "name": "world-flag_226-THA--Thailand",
+      "font_class": "world-flag_-THA--Thailand",
+      "unicode": "e881",
+      "unicode_decimal": 59521
+    }
+  ]
+}

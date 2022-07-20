@@ -1,0 +1,82 @@
+.jump_menu{
+    margin-top: 30px;
+    border-top: red solid 2px;
+    background-color: #eaeaea;
+}
+.jump_content{
+    height:180px;
+    width:1190px;
+    margin:0 auto;
+    background-color: #eaeaea;
+}
+.commodity,
+.success,
+.point_text{
+    display:inline-block;
+}
+.commodity {
+    float:left;
+    margin-top:50px;
+    width:500px;
+}
+.point_text{
+    float:right;
+    margin-top:68px;
+}
+.flow_text,
+.flow_img{
+    float:left;
+    margin-top:5px;
+}
+.flow_text{
+    width:280px;
+    height:80px;
+    /* 文字超出隐藏 */
+    overflow:hidden;
+    /* 英文换行 */
+    word-wrap:break-word;
+    font-weight: bolder;
+    float:left;
+    margin-top: 10px;
+    margin-left:20px;
+    font-size: 13px;
+    color:rgba(0, 0, 0, 0.753);
+    text-decoration:none;
+}
+.commodity_img{
+    width:80px;
+    height:80px;
+    margin-left:20px;
+}
+.point,
+.spin_img{
+    float:left;
+}
+.spin_img{
+    margin-right: 10px;
+    font-size: 30px;
+    color:rgb(236, 69, 69);
+}
+.point{
+    color:rgb(236, 69, 69);
+    font-weight: bolder;
+    font-size: 25px;
+}
+.success{
+    margin-top:75px;
+    float:left;
+}
+.bingo{
+    font-size: 28px;
+    margin-top:1px;
+}
+.success_text{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left:10px;
+}
+.bingo,
+.success_text{
+    float:left;
+    color:rgb(106, 163, 106);
+}

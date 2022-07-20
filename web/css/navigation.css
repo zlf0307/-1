@@ -1,0 +1,236 @@
+.bar-menue{
+    background-color: #E3E4E5;
+    line-height: 30px;
+}
+.top-bar{
+    width:1050px;
+    margin:0 auto;
+    background-color:#E3E4E5; 
+}
+.top-bar a,
+.top-bar span,
+.right-bar .fas{
+    color:#999;
+    text-decoration: none;
+}
+.left-bar .current-city,
+.right-bar .myjd .myjd2,
+.right-bar .qycg .qycg2,
+.right-bar .khfw .khfw2,
+.right-bar .wzdh .wzdh2{
+    padding:0 10px;
+    height:29px;
+    border:1px solid transparent;
+    border-bottom: none;
+    padding-bottom: 2px;
+    /* 开启相对定位，使其覆盖city-list的上边框 */
+    position:relative;
+    z-index: 9999;
+}
+.left-bar:hover .current-city,
+.right-bar .myjd:hover .myjd2,
+.right-bar .qycg:hover .qycg2,
+.right-bar .khfw:hover .khfw2,
+.right-bar .wzdh:hover .wzdh2{
+    background-color: white;
+    border:1px solid rgb(204,204,204);
+    border-bottom: none;
+}
+.left-bar .city-list{
+    display:none;
+    width:322px;
+    height:440px;
+    background-color: white;
+    border:1px solid rgb(204,204,202);
+    /* 设置一个绝对定位，使它脱离文档流，就不会占父元素位置 */
+    position:absolute;
+    z-index: 999;
+    top:31px;
+    /* 设置阴影 */
+    box-shadow:0px 2px 2px rgba(0,0,0,.2);
+}
+
+/* 给current-city一个hover，寻找他的兄弟元素显示 ，但是鼠标移开current-city，city-list就消失了*/
+/* .current-city:hover+.city-list{
+    display: block;
+} */
+/* 但此处应该给left-bar父元素 */
+
+.left-bar:hover .city-list,
+.right-bar .myjd:hover .jd-list,
+.right-bar .qycg:hover .qycg-list,
+.right-bar .khfw:hover .khfw-list,
+.right-bar .wzdh:hover .wzdh-list{
+    display: block;
+}
+
+.left-bar .current-city:hover a{
+    color:#f10215;
+}
+
+.right-bar a:hover,
+.top-bar .hightlight{
+    color:#f10215;
+}
+.left-bar{
+    float:left;
+}
+.right-bar{
+    float:right;
+}
+.right-bar li{
+    float:left;
+}
+.right-bar .khfw,
+.right-bar .wzdh{
+    position:relative;
+}
+.top-bar .line{
+    width:1px;
+    height:10px;
+    background-color: #ccc;
+    overflow: hidden;
+    margin:11px 5px 0;
+}
+.right-bar .jd-list{
+    display: none;
+    width:282px;
+    height:156px;
+    background-color: white;
+    border:1px solid rgb(204,204,202);
+    box-shadow:0px 2px 2px rgba(0,0,0,.2);
+    position:absolute;
+    top:31px;
+    z-index: 999;
+}
+.right-bar .qycg-list{
+    display: none;
+    width:154px;
+    height:142px;
+    background-color: white;
+    border:1px solid rgb(204,204,202);
+    box-shadow:0px 2px 2px rgba(0,0,0,.2);
+    position:absolute;
+    top:31px;
+    z-index: 999;
+}
+.right-bar .khfw-list{
+    display: none;
+    width:172px;
+    height:273px;
+    background-color: white;
+    border:1px solid rgb(204,204,202);
+    box-shadow:0px 2px 2px rgba(0,0,0,.2);
+    position:absolute;
+    top:31px;
+    left:-87.4px;
+    z-index: 999;
+}
+.right-bar .wzdh-list{
+    display: none;
+    width:990px;
+    height:229px;
+    background-color: white;
+    border:1px solid rgb(204,204,202);
+    box-shadow:0px 2px 2px rgba(0,0,0,.2);
+    position:absolute;
+    top:31px;
+    left:-905.4px;
+    z-index: 999;
+}
+.question_menu{
+    float:left;
+    padding:0 7px;
+    margin:-2px 20px 0;
+}
+.left-bar .fas{
+    font-size: 14px;
+    color:#f10215;
+    margin-right:4px;
+}
+.right-bar .fas{
+    margin-left:4px;
+}
+.left-bar .city-list .citylist-first{
+    width:300px;
+    height:196px;
+    margin:0 auto;
+    line-height:14px;
+}
+.city-name .white-space{
+    height:12px;
+}
+.border_bottom{
+    width:255px;
+    height:10px;
+    border-bottom:1px solid #f4f4f5; 
+    margin-left:15px;
+}
+.item{
+    margin-bottom:2px;
+}
+.item .china-city{
+    float:left;
+    padding:4px 7px;
+    margin:0 9px;
+}
+.item .adjust-left{
+    margin-left:0;
+}
+.item .adjust-right{
+    margin-right:6px
+}
+.item .china-city:hover{
+    background-color:#f4f4f5;
+}
+.item .china-city:hover a{
+    color:#f10215;
+}
+.left-bar .city-list .citylist-second{
+    width:290px;
+    height:95px;
+    margin:0 auto;
+    line-height:14px;
+}
+.citylist-second .block-item{
+    margin:10px 10px;
+}
+.citylist-second .block-list{
+    margin:20px 10px 0;
+}
+.block-list .special-region{
+    float:left;
+    width:135px;
+    margin-bottom:10px;
+}
+.special-region:hover a{
+    color:#f10215;
+}
+.left-bar .city-list .citylist-third{
+    width:290px;
+    height:121px;
+    margin:0 auto;
+    line-height:14px;
+}
+.citylist-third .citylist-third-item{
+    margin:9px 0 9px 9px;
+}
+.citylist-third-content li{
+    float:left;
+    height:17px;
+    padding-right:56px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.citylist-third-content li:hover a{
+    color:#f10215;
+}
+.citylist-third-content .icon{
+    display:inline-block;
+    width:15px;
+    height:10px;
+    margin-left:8px;
+}
+.citylist-third-content .language{
+    vertical-align: -1;
+}

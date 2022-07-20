@@ -1,0 +1,32 @@
+#btn_login1{
+    font-size: 14px;
+    font-family: 宋体;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color:rgba(128, 155, 202, 0.7);
+    border-radius: 6px;
+    border: 0;
+    position:relative;
+    right:25px;
+}
+#btn_login2{
+    font-size: 13px;
+    font-family: 宋体;
+    color: white;
+    position:relative;
+    left:50px;
+}
+#btn_login1:hover{
+    background-color:rgba(128, 150, 202, 0.7);
+}
+#btn_login2:hover{
+    color:rgb(50, 50, 135);
+}
+.regcontent{
+    height:10px;
+    color:rgb(235, 10, 148);
+}

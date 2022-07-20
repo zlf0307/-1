@@ -1,0 +1,27 @@
+.btn_regist{
+    font-size: 14px;
+    font-family: 宋体;
+    width: 200px;
+    height: 25px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color:rgba(128, 155, 202, 0.7);
+    border-radius: 6px;
+    border: 0;
+    position:relative;
+    left:8px;
+}
+.btn_regist:hover{
+    background-color:rgba(128, 150, 202, 0.7);
+}
+.regspan {
+    display: inline-block;
+    width:10px;
+    height:10px;
+}
+.regcontent{
+    height:10px;
+    color:rgb(235, 10, 148);
+}
